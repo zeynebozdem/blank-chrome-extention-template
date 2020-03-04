@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Blank Chrome Extention Template",
+    "description": "Blank template for coding chrome extention simply",
+    "version": "1.0.0",
+    "icons": { "128": "tab_icon.png" },
+    "browser_action": {   
+      "default_icon": "tab_icon.png",   
+      "default_title": "Have a good day",
+      "default_popup":"hello.html"
+    },
+    "chrome_url_overrides" : {  "newtab": "index.html"},
+    "permissions": ["activeTab"]
+  }
+  
